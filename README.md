@@ -1,4 +1,4 @@
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fr8vk92pzuj303k03k0f6.jpg)
+![](https://github.com/herrkaefer/close-unwanted-tabs/raw/master/icons/icon128.png)
 
 ## close-unwanted-tabs
 
