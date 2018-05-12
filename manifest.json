@@ -1,0 +1,14 @@
+{
+  "name": "Close some tabs",
+  "description": "Click to close: Google search results, stackoverflow questions, blank tabs",
+  "version": "1.0",
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+  "permissions": ["tabs"],
+  "browser_action": {
+      "name": "Close tabs of specific URLs: Google search results, stackoverflow questions, blank tabs"
+  },
+  "manifest_version": 1
+}
