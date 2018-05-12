@@ -1,7 +1,8 @@
 {
-  "name": "Close unwanted tabs",
+  "name": "Close Unwanted Tabs",
   "description": "Click to close: Google search results, stackoverflow questions, blank tabs",
   "version": "1.0.0",
+  "manifest_version": 2,
   "background": {
      "scripts": ["background.js"],
      "persistent": false
@@ -16,6 +17,5 @@
       "48": "icons/icon48.png",
       "64": "icons/icon64.png",
       "128": "icons/icon128.png"
-    },
-  "manifest_version": 2
+    }
 }

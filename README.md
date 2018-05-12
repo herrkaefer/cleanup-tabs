@@ -20,10 +20,17 @@ Just **one click to close:**
 
 unless the tab is active or pinned.
 
+## Installation
+
+1. Download repository as ZIP, and unzip
+2. Open Chrome browser and navigate to chrome://extensions
+3. Select "Developer Mode" and then click "Load unpacked extension..."
+4. From the file browser, choose to folder `close-unwanted-tabs`
+
 ## TODOs
 
 - [ ] customizable URLs
-- [ ] publish to Chrome Store
+- [ ] publish to Chrome Web Store
 
 ## License
 
