@@ -1,5 +1,5 @@
 {
-  "name": "Close some tabs",
+  "name": "Close unwanted tabs",
   "description": "Click to close: Google search results, stackoverflow questions, blank tabs",
   "version": "1.0.0",
   "background": {
