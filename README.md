@@ -1,4 +1,4 @@
-`close-some-tabs`` — Chrome extension for closing some tabs of specific URLs.
+`close-some-tabs` — Chrome extension for closing some tabs of specific URLs.
 
 You will definitely like this extension if you often find your browser tabs are crowded with:
 
