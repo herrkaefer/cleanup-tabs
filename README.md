@@ -2,7 +2,7 @@
 
 You will definitely like this extension if you often find your browser tabs look like:
 
-G, SO, G, SO, [useful tab], SO, Blank, G, [useful tab], SO, BLANK, G, G, SO, ...
+>G, SO, G, SO, [useful tab], SO, Blank, G, [useful tab], SO, BLANK, G, G, SO, ...
 
 where `G` is 'Google search result', `SO` is 'Stack Overflow question', `BLANK` is 'blank tab'.
 
