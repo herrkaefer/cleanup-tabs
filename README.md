@@ -1,4 +1,8 @@
-`close-unwanted-tabs` — Chrome extension for closing some tabs of specific URLs.
+![](https://ws4.sinaimg.cn/large/006tNc79ly1fr8vk92pzuj303k03k0f6.jpg)
+
+## close-unwanted-tabs
+
+`close-unwanted-tabs` is a Chrome extension for closing some tabs of specific URLs.
 
 You will definitely like this extension if you often find your browser tabs look like:
 
