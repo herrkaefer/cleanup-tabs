@@ -2,20 +2,22 @@
 
 'use strict';
 
-// tabs to close:
-// - Not active and pinned
-// - blank tabs
-// - Google search page
-// - stackoverflow question
+// Substrings in URL which is to be closed
+var urlsToClose = [
+  'chrome://',
+  'www.google.',
+  'stackoverflow.com/questions'
+]
+
+
+// Check if url of tab should be closed
 function tabIsToClose(url) {
-  if (url.includes('chrome://newtab') ||
-      url.includes('www.google.com/search?') ||
-      url.includes('https://stackoverflow.com/questions')) {
-    return true;
+  for (var i = 0; i < urlsToClose.length; i ++) {
+    if (url.includes(urlsToClose[i])) {
+      return true;
+    }
   }
-  else {
-    return false;
-  }
+  return false;
 }
 
 

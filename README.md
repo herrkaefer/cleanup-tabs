@@ -14,9 +14,9 @@ Expecially for programmers, sites like Google and Stack Overflow are roads that 
 
 Just **one click to close:**
 
-- Google search result pages
+- URL begins with "chrome://" such as blank tabs, Chrome history
+- URL includes "www.google." such as Google search result pages
 - stackoverflow question pages
-- blank tabs
 
 unless the tab is active or pinned.
 
@@ -29,8 +29,8 @@ unless the tab is active or pinned.
 
 ## TODOs
 
-- [ ] customizable URLs
-- [ ] publish to Chrome Web Store
+- [ ] customizable URLs which supports wildcard character or regular expression
+- [ ] publish to Chrome Web Store ($5 needed)
 
 ## License
 
