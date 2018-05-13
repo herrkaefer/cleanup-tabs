@@ -1,25 +1,9 @@
-// Copyright (c) 2018 Yang LIU (gloolar@gmail.com)
+// Copyright (c) 2018 Yang LIU (gloolar at gmail.com)
 
 'use strict';
 
-// Substrings in URL which is to be closed
-var urlsToClose = [
-  'chrome://',
-  'www.google.',
-  'stackoverflow.com/questions'
-]
-
-
-// Check if url of tab should be closed
-function tabIsToClose(url) {
-  for (var i = 0; i < urlsToClose.length; i ++) {
-    if (url.includes(urlsToClose[i])) {
-      return true;
-    }
-  }
-  return false;
-}
-
+// URLs to be closed
+var urlRules = /chrome:\/\/|www.google.com\/search?|stackoverflow.com\/questions/;
 
 function closeTabs() {
   chrome.tabs.query({
@@ -28,9 +12,8 @@ function closeTabs() {
     currentWindow: true
   }, function(tabs) {
     var tabsToClose = [];
-    var numTabs = tabs.length;
-    for (var i = 0; i < numTabs; i++) {
-      if (tabIsToClose(tabs[i].url)) {
+    for (var i = 0; i < tabs.length; i++) {
+      if (url.match(urlRules)) {
         tabsToClose.push(tabs[i].id)
       }
     }
@@ -38,6 +21,5 @@ function closeTabs() {
     chrome.tabs.remove(tabsToClose);
   });
 };
-
 
 chrome.browserAction.onClicked.addListener(closeTabs);
