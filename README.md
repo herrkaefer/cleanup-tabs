@@ -17,7 +17,8 @@ Just **one click to close:**
 - URL begins with "chrome://" such as blank tabs, Chrome history
 - URL includes "www.google." such as Google search result pages
 - stackoverflow question pages
-- Search pages of Bing, Baidu, ...
+- Search pages of Bing, Baidu
+- Taobao search and item pages
 
 unless the tab is active or pinned.
 
