@@ -15,10 +15,10 @@ Expecially for programmers, sites like Google and Stack Overflow are paths that 
 Just **one click to close:**
 
 - URL begins with "chrome://" such as blank tabs, Chrome history
-- URL includes "www.google." such as Google search result pages
+- Google search results
 - stackoverflow question pages
 - Search pages of Bing, Baidu
-- Taobao search and item pages
+- Taobao & Tmall search and item pages
 
 unless the tab is active or pinned.
 
