@@ -10,13 +10,14 @@ You will definitely like this extension if you often find your browser tabs look
 
 where `G` is 'Google search result', `SO` is 'Stack Overflow question', `BLANK` is 'blank tab'.
 
-Expecially for programmers, sites like Google and Stack Overflow are roads that take you to the solutions. Oftentimes after useful destinations are approached, the roads need to be cleared. With this extension, that would be easy:
+Expecially for programmers, sites like Google and Stack Overflow are paths that take you to the solutions. Oftentimes after useful destinations are approached, the paths need to be cleared. With this extension, that would be easy:
 
 Just **one click to close:**
 
 - URL begins with "chrome://" such as blank tabs, Chrome history
 - URL includes "www.google." such as Google search result pages
 - stackoverflow question pages
+- Search pages of Bing, Baidu, ...
 
 unless the tab is active or pinned.
 

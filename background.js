@@ -3,7 +3,7 @@
 'use strict';
 
 // URLs to be closed
-var urlRules = /chrome:\/\/|www.google.com\/search?|stackoverflow.com\/questions/;
+var urlRules = /chrome:\/\/|www.google.com\/search?|stackoverflow.com\/questions|www.bing.com\/search?|www.baidu.com\/s?/;
 
 function closeTabs() {
   chrome.tabs.query({
@@ -13,7 +13,7 @@ function closeTabs() {
   }, function(tabs) {
     var tabsToClose = [];
     for (var i = 0; i < tabs.length; i++) {
-      if (url.match(urlRules)) {
+      if (tabs[i].url.match(urlRules)) {
         tabsToClose.push(tabs[i].id)
       }
     }
