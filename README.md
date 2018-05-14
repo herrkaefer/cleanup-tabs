@@ -41,10 +41,6 @@ Remember: no wild characters, no regular expressions. Just url pieces included i
 3. Select "Developer Mode" and then click "Load unpacked extension..."
 4. From the file browser, choose to folder `cleanup-tabs`
 
-## TODOs
-
-- [ ] publish to Chrome Web Store ($5 needed)
-
 ## License
 
 MPL v2.0
