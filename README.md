@@ -4,6 +4,8 @@
 
 Chrome extension for closing self-defined tabs.
 
+Install: [Chrome Web Store link](https://chrome.google.com/webstore/detail/cleanup-tabs/ndkfidodjiekbmokfdcnkhjmikbnjjma)
+
 ## A user case
 
 This extension is for general purpose, but let's take a coder as an example.
@@ -28,7 +30,11 @@ Remember: no wild characters, no regular expressions. Just url pieces included i
 
 ## Installation
 
-(Not published yet, so manually installation is required.)
+### Install from Chrome Web Store
+
+[Chrome Web Store link](https://chrome.google.com/webstore/detail/cleanup-tabs/ndkfidodjiekbmokfdcnkhjmikbnjjma)
+
+### Manual Installation
 
 1. Download repository as ZIP, and unzip
 2. Open Chrome browser and navigate to chrome://extensions
