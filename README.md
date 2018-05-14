@@ -1,26 +1,30 @@
 ![](https://github.com/herrkaefer/close-unwanted-tabs/raw/master/icons/icon128.png)
 
-## close-unwanted-tabs
+## cleanup-tabs
 
-`close-unwanted-tabs` is a Chrome extension for closing some tabs of specific URLs.
+Chrome extension for closing self-defined tabs.
 
-You will definitely like this extension if you often find your browser tabs look like:
+## A user case
+
+This extension is for general purpose, but let's take a coder as an example.
+
+After a lot of developing work, you may often find your browser tabs look like:
 
 >G, SO, G, SO, [useful tab], SO, Blank, G, [useful tab], SO, BLANK, G, G, SO, ...
 
-where `G` is 'Google search result', `SO` is 'Stack Overflow question', `BLANK` is 'blank tab'.
+where `G` is 'Google search result page', `SO` is 'Stack Overflow question page', `BLANK` is 'blank tab'.
 
-Expecially for programmers, sites like Google and Stack Overflow are paths that take you to the solutions. Oftentimes after useful destinations are approached, the paths need to be cleared. With this extension, that would be easy:
+Sites like Google or Stack Overflow are paths to approach useful informations, after you get to the destinations, they are left behind, and you want to clean up the path, which means closing them all.
 
-Just **one click to close:**
+With this extension, one click would be enough. Just define some url pieces in the extension's option:
 
-- URL begins with "chrome://" such as blank tabs, Chrome history
-- Google search results
-- stackoverflow question pages
-- Search pages of Bing, Baidu
-- Taobao & Tmall search and item pages
+```
+chrome://
+www.google.com/search?
+stackoverflow.com/questions
+```
 
-unless the tab is active or pinned.
+Remember: no wild characters, no regular expressions. Just url pieces included in the tabs' url that you want to close.
 
 ## Installation
 
@@ -31,7 +35,6 @@ unless the tab is active or pinned.
 
 ## TODOs
 
-- [ ] customizable URLs which supports wildcard character or regular expression
 - [ ] publish to Chrome Web Store ($5 needed)
 
 ## License

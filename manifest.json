@@ -1,15 +1,19 @@
 {
-  "name": "Close Unwanted Tabs",
-  "description": "Click to close: Google search results, stackoverflow questions, blank tabs",
-  "version": "1.0.1",
+  "name": "Cleanup Tabs",
+  "description": "Click to close tabs of self-defined URLs",
+  "version": "1.1.0",
   "manifest_version": 2,
   "background": {
      "scripts": ["background.js"],
      "persistent": false
    },
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "storage"],
   "browser_action": {
-      "name": "Close tabs of specific URLs: Google search results, stackoverflow questions, blank tabs"
+      "name": "Click to close tabs of self-defined URLs"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "icons": {
       "16": "icons/icon16.png",
