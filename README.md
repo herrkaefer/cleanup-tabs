@@ -28,10 +28,12 @@ Remember: no wild characters, no regular expressions. Just url pieces included i
 
 ## Installation
 
+(Not published yet, so manually installation is required.)
+
 1. Download repository as ZIP, and unzip
 2. Open Chrome browser and navigate to chrome://extensions
 3. Select "Developer Mode" and then click "Load unpacked extension..."
-4. From the file browser, choose to folder `close-unwanted-tabs`
+4. From the file browser, choose to folder `cleanup-tabs`
 
 ## TODOs
 
