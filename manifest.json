@@ -3,6 +3,7 @@
   "description": "Click to close tabs of self-defined URLs",
   "version": "1.1.0",
   "manifest_version": 2,
+  "author": "Yang Liu",
   "background": {
      "scripts": ["background.js"],
      "persistent": false
