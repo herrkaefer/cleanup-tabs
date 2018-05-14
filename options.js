@@ -4,7 +4,8 @@ function save_options() {
   var urlRules = String(document.getElementById('urlRules').value)
                  .trim()
                  .split('\n')
-                 .map(x=>x.trim());
+                 .map(x=>x.trim())
+                 .filter(x=>x);
   chrome.storage.sync.set({urlRules: urlRules}, function() {
     restore_options();
     // Update status to let user know options were saved.
