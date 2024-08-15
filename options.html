@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head><title>Cleanup Tabs: URL Rules Defination</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleanup Tabs Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 16px;
+            font-size: 14px;
+        }
+        h1 {
+            color: #333;
+            font-size: 18px;
+            margin-top: 0;
+        }
+        textarea {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            resize: vertical;
+        }
+        #save {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        #status {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 8px;
+            border: 1px solid #ddd;
+            margin: 8px 0;
+        }
+    </style>
+</head>
 <body>
+    <h1>Cleanup Tabs Settings</h1>
 
-When clicked, all tabs which URL includes the following string pieces will be closed.
-<br>
-Define them to meet your need, one line one URL piece.
-<br>
-(No wild character, no regular expression)
-<textarea id="urlRules" cols="80" rows="10"></textarea>
+    <p>Enter URL strings to match (one per line). Tabs containing these strings will be closed:</p>
+    <p><strong>Note:</strong> Matching is case-sensitive. Spaces at line ends are ignored. No wildcards or regex.</p>
 
-<div id="status"></div>
-<button id="save">Save</button>
+    <textarea id="urlRules" rows="8" placeholder="e.g., google.com/search?
+stackoverflow.com/questions
+youtube.com/watch"></textarea>
 
-<script src="options.js"></script>
+    <button id="save">Save Settings</button>
+
+    <div id="status"></div>
+
+    <script src="options.js"></script>
 </body>
 </html>
