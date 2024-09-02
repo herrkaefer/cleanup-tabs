@@ -4,7 +4,7 @@
 
 Chrome extension for closing self-defined tabs.
 
-Install: [Chrome Web Store link](https://chrome.google.com/webstore/detail/cleanup-tabs/ndkfidodjiekbmokfdcnkhjmikbnjjma)
+Install: [Chrome Web Store link](https://chromewebstore.google.com/detail/cleanup-tabs/holnappnhlkgjcedhjmicldpmcajkdem)
 
 ## A user case
 
